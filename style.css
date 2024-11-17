@@ -1,0 +1,821 @@
+* {
+  font-family: "Vazirmatn", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-color: #121212;
+  color: white;
+}
+
+.center-section {
+  margin: 0 auto;
+  width: 1300px;
+}
+
+:root {
+  --primary-color: #1b1b1b;
+  --secondary-color: #39ff14;
+  --third-color: #434a5a;
+  --fourth-color: #30384d;
+}
+
+section .section-title {
+  font-size: 40px;
+  line-height: 50.73px;
+}
+
+section .section-dis {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+span {
+  color: var(--secondary-color);
+}
+
+header {
+  width: 100%;
+  background-color: #292929;
+}
+
+header .center-section {
+  display: flex;
+  align-items: center;
+}
+
+header .center-section .signs {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+header .center-section .signs .left-button {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+  padding: 13px 45px;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-right: 6px;
+  cursor: pointer;
+}
+
+header .center-section .signs .left-button:hover {
+  background-color: #00000000;
+  border: 1px solid var(--secondary-color);
+  color: white;
+  padding: 12px 44px;
+}
+
+header .center-section .signs .right-button {
+  padding: 12.5px 38px;
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  background-color: #00000000;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+header .center-section .signs .right-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+.circle-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.02) 0%,
+    rgb(16, 16, 16) 100%
+  );
+  width: 1000px;
+  height: 1000px;
+  border-radius: 50%;
+  position: absolute;
+  top: -424px;
+  z-index: -1;
+}
+
+.home-section .dis-pic {
+  direction: rtl;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 84px;
+}
+
+.home-section .dis-pic .discription {
+  width: 531px;
+}
+
+.home-section .dis-pic .home-pic img {
+  width: 442px;
+}
+
+.home-section .dis-pic .discription h1 {
+  font-size: 53px;
+  font-weight: 700;
+  line-height: 67.64px;
+}
+
+.home-section .dis-pic .discription .buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: 42px 0 42px 0;
+}
+
+.home-section .dis-pic .discription .buttons .right-button {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 238px;
+  padding: 0 4px 0 14px;
+  border-radius: 12px;
+}
+
+.home-section .dis-pic .discription .buttons .right-button p {
+  margin: 8px;
+}
+
+.home-section .dis-pic .discription .buttons div {
+  background-color: var(--third-color);
+  color: white;
+}
+
+.home-section .dis-pic .discription .buttons button {
+  background-color: var(--secondary-color);
+  border-radius: 12px;
+  border: none;
+  padding: 0 16px 0 16px;
+}
+
+.option {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  position: relative;
+  top: 92px;
+}
+
+.option .options {
+  background-color: var(--fourth-color);
+  border-radius: 12px;
+  width: 380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.option .options p {
+  font-size: 24px;
+  font-weight: 600;
+  margin-top: 6px;
+  margin-bottom: 16px;
+}
+
+.option .options img {
+  background-color: var(--third-color);
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  padding: 6px;
+  margin-top: 16px;
+}
+
+.match-section {
+  background-color: var(--primary-color);
+  padding-bottom: 84px;
+}
+
+.match-section .center-section h1 {
+  text-align: center;
+  padding-top: 124px;
+}
+
+.match-section .center-section p {
+  text-align: center;
+}
+
+.match-section .center-section .dash-line {
+  border: 1.5px dashed white;
+  height: 0px;
+  margin: 64px;
+  width: 75%;
+  float: right;
+  display: flex;
+  justify-content: space-between;
+}
+
+.match-section .center-section .dash-line img {
+  background-color: var(--third-color);
+  padding: 8px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 30px;
+  width: 48px;
+  height: 48px;
+  margin: -2px;
+}
+
+.match-section .center-section .steps {
+  direction: rtl;
+  margin-top: 144px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 1300px;
+}
+
+.match-section .center-section .steps div {
+  width: 17.5%;
+}
+
+.match-section .center-section .steps h2 {
+  font-size: 16px;
+  line-height: 22px;
+}
+
+.match-section .center-section .steps p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: right;
+}
+
+.little-section img {
+  width: 100%;
+  height: 164px;
+  background-color: var(--third-color);
+}
+
+.little-section h2 {
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: center;
+}
+
+.little-section p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-align: center;
+}
+
+.little-section div {
+  position: relative;
+  bottom: 134px;
+}
+
+.prize-section .inner-div {
+  direction: rtl;
+  background-color: var(--primary-color);
+  padding-right: 10px;
+  padding: 64px 0;
+  margin: 168px 0 238px 0;
+  height: 250px;
+}
+
+.prize-section .inner-div p {
+  width: 42%;
+}
+
+.prize-section .inner-div .center-section .items {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 54%;
+  position: relative;
+  right: 48%;
+  bottom: 452px;
+}
+
+.prize-section .inner-div .center-section .items div {
+  background-color: var(--fourth-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 32px;
+  border-radius: 12px;
+}
+
+.prize-section .inner-div .center-section .items div img {
+  width: 46px;
+  height: 46px;
+  background-color: var(--primary-color);
+  border-radius: 50%;
+  padding: 6px;
+  margin-left: 12px;
+}
+
+.prize-section .inner-div .center-section .items div p {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.prize-section .inner-div .center-section .items div .left {
+  direction: ltr;
+}
+
+.hackers-section {
+  background-color: var(--primary-color);
+}
+
+.hackers-section .center-section .section-title {
+  text-align: center;
+  margin-top: 8px;
+}
+
+.hackers-section .center-section .section-dis {
+  text-align: center;
+  padding-bottom: 42px;
+}
+
+.hackers-section .center-section .right-top-pic {
+  position: relative;
+  left: 60%;
+  top: 88px;
+}
+
+.hackers-section .center-section .left-top-pic {
+  position: relative;
+  left: 29.5%;
+  top: 85px;
+}
+
+.hackers-section .center-section .hackers {
+  padding-bottom: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.hackers-section .center-section .hackers .best-hackers {
+  width: 63%;
+}
+
+.hackers-section .center-section .hackers .best-hackers .best-hackers-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 64px 0 22px;
+}
+
+.hackers-section .center-section .hackers .best-hackers .best-hackers-title h2 {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22.55px;
+}
+
+.hackers-section .center-section .hackers .best-hackers .winners .winner {
+  background-color: var(--fourth-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  direction: rtl;
+  margin-bottom: 24px;
+  padding: 10px 24px;
+  border-radius: 12px;
+}
+
+.hackers-section .center-section .hackers .best-hackers .winners .winner div {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+.hackers-section
+  .center-section
+  .hackers
+  .best-hackers
+  .winners
+  .winner
+  div
+  img {
+  width: 42px;
+  height: 42px;
+}
+
+.hackers-section .center-section .hackers .best-hackers .winners .winner .blur {
+  filter: blur(3px);
+}
+
+.hackers-section .center-section .hackers .bestest-hacker {
+  width: 30%;
+  height: 576px;
+  background-color: var(--fourth-color);
+  border-radius: 12px;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker h2 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28.18px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+  margin: 0;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker img {
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .profile-pic {
+  width: 124px;
+  position: relative;
+  bottom: 48%;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .crown {
+  position: relative;
+  bottom: 47%;
+  width: 50px;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .name {
+  text-align: center;
+  position: relative;
+  bottom: 48.5%;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .table {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  padding: 6px 20px;
+  position: relative;
+  bottom: 46%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .table .column {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .table .column p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 22px;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .table .mid {
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.hackers-section .center-section .hackers .bestest-hacker .date {
+  text-align: center;
+  position: relative;
+  bottom: 48.5%;
+  padding-top: 5px;
+}
+
+.hackers-section .center-section .left-bottom-pic {
+  position: relative;
+  left: 20%;
+  bottom: 54px;
+  rotate: 180deg;
+}
+
+.hackers-section .center-section .middle-bottom-pic {
+  position: relative;
+  left: 32%;
+  bottom: 95px;
+}
+
+.hackers-section .center-section .right-bottom-pic {
+  position: relative;
+  left: 46%;
+  bottom: 34px;
+}
+
+.vulnerability-section {
+  padding-bottom: 84px;
+}
+
+.vulnerability-section .center-section .section-title {
+  text-align: center;
+}
+
+.vulnerability-section .center-section .section-dis {
+  text-align: center;
+}
+
+.vulnerability-section .center-section .inner-div {
+  display: flex;
+  justify-content: center;
+}
+
+.vulnerability-section .center-section .inner-div .part-title {
+  background-color: var(--primary-color);
+  width: 33%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 14px;
+  border: 1px solid #d9d9d933;
+  border-radius: 12px;
+  margin: 42px 0 24px;
+}
+
+.vulnerability-section .center-section .inner-div .part-title .rectangle {
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  font-size: 28px;
+  text-align: center;
+  color: var(--secondary-color);
+  font-weight: 100;
+}
+
+.vulnerability-section .center-section .inner-div .part-title h2 {
+  margin: 12px 0;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.vulnerability-section .center-section .inner-div .part-title img {
+  width: 36px;
+  height: 36px;
+}
+
+.vulnerability-section .center-section .inner-top-part {
+  background-color: var(--primary-color);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 12px;
+}
+
+.vulnerability-section .center-section .inner-top-part div {
+  background-color: var(--fourth-color);
+  border-radius: 12px;
+  width: 31%;
+}
+
+.vulnerability-section .center-section .inner-top-part div p {
+  text-align: center;
+}
+
+.vulnerability-section .center-section .inner-middle-part {
+  padding: 24px;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+}
+
+.vulnerability-section .center-section .inner-middle-part .column {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.vulnerability-section .center-section .inner-middle-part .center {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+}
+
+.vulnerability-section .center-section .inner-middle-part .column div {
+  background-color: var(--fourth-color);
+  width: 21%;
+  text-align: center;
+  padding: 12px;
+  border-radius: 12px;
+}
+
+.inner-bottom-part {
+  background-color: var(--primary-color);
+  padding: 36px;
+  border-radius: 12px;
+}
+
+.vulnerability-section .center-section .inner-bottom-part .top-bar {
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 1px solid white;
+  margin-bottom: 24px;
+}
+
+.vulnerability-section .center-section .inner-bottom-part .top-bar h2 {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 8px 24px 8px;
+  margin: 0;
+}
+
+.vulnerability-section .center-section .inner-bottom-part .top-bar .active {
+  color: white;
+  border-bottom: 7px solid var(--secondary-color);
+}
+
+.inner-bottom-part .inner-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-div .column {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 8px 0;
+}
+
+.inner-bottom-part .inner-div .column div {
+  background-color: var(--fourth-color);
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.vulnerability-section .center-section .bottom-part {
+  background-color: var(--third-color);
+  padding: 34px;
+  margin: 24px 0;
+  border-radius: 12px;
+}
+
+.vulnerability-section .center-section .bottom-part p {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: center;
+}
+
+.not-vulnerability-section {
+  background-color: var(--primary-color);
+  height: 524px;
+  z-index: 1;
+  position: sticky;
+}
+
+.not-vulnerability-section .center-section img {
+  position: relative;
+  left: 43%;
+  top: 123px;
+  margin: -18px;
+}
+
+.not-vulnerability-section .center-section .section-title {
+  text-align: center;
+  z-index: 1;
+  position: sticky;
+}
+
+.not-vulnerability-section .center-section .section-title .red-span {
+  color: #944040b5;
+}
+
+.not-vulnerability-section .center-section .inner-bottom-part {
+  background-color: #101010;
+  border: 2px solid #94404066;
+  z-index: 2;
+  position: sticky;
+}
+
+.not-vulnerability-section
+  .center-section
+  .inner-bottom-part
+  .inner-div
+  .column
+  div {
+  background-color: #94404066;
+  padding: 10px 19px;
+}
+
+.rules-section .center-section .oval {
+  background: radial-gradient(
+    rgba(255, 255, 255, 0.025) 0%,
+    rgb(16, 16, 16) 100%
+  );
+  width: 1515px;
+  height: 1000px;
+  border-radius: 0 0 50% 50%;
+  position: relative;
+  bottom: 376px;
+  right: 106px;
+}
+
+.rules-section .center-section h1 {
+  text-align: center;
+  margin-top: -36%;
+  position: sticky;
+  z-index: 2;
+}
+
+.rules-section .center-section p {
+  text-align: center;
+}
+
+.rules-section .center-section p::after {
+  content: " :";
+}
+
+.rules-section .center-section .rules-list {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 24px 64px 24px;
+}
+
+.rules-section .center-section .rules-list ul {
+  direction: rtl;
+}
+
+.rules-section .center-section .rules-list ul li {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+}
+
+.rules-section .center-section .rules-list .rules-image {
+  width: 0;
+}
+
+.rules-section .center-section .rules-list .rules-image .mask {
+  opacity: 20%;
+  width: 636px;
+  position: relative;
+  left: 363px;
+  top: 42px;
+}
+
+.rules-section .center-section .rules-list ul li img {
+  border: 1px solid white;
+  border-radius: 4px;
+  width: 24px;
+  padding: 2px;
+}
+
+.report-section {
+  background-color: var(--primary-color);
+  padding: 46px 0;
+}
+
+.report-section .center-section h1 {
+  text-align: right;
+}
+
+.report-section .center-section p {
+  text-align: right;
+}
+
+.report-section .center-section .report-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.report-section .center-section .report-list .image-send img {
+  width: 304px;
+}
+
+.report-section .center-section .report-list ul {
+  direction: rtl;
+}
+
+.report-section .center-section .report-list li {
+  list-style-type: square;
+  margin: 24px 0;
+  font-size: 18px;
+}
+
+footer {
+  background-color: var(--third-color);
+  padding: 42px;
+}
+
+footer table {
+  width: 100%;
+  font-size: 18px;
+}
+
+footer table tr {
+  display: flex;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+
+footer table tr th {
+  color: var(--secondary-color);
+  text-align: right;
+  margin: 30px 0;
+}
+
+footer table td, th {
+  direction: rtl;
+  width: 154px;
+}
